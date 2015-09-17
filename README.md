@@ -20,10 +20,12 @@
 
 使用[pip](https://pip.pypa.io/en/stable/installing/)安装Request非常方便。
 
-`
+
 下载[get-pip.py](https://bootstrap.pypa.io/get-pip.py)
+~~~
+
 $ pip install requests 
-`
+~~~
 ## 使用
 
 ~~~
