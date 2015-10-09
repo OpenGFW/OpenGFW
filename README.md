@@ -1,10 +1,17 @@
-# OpenGFW
+# OpenGFW 
 
 本项目用来翻越[防火长城](https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)。
 
 运行OpenGFW.py脚本生成的pac文件包含相关规则帮助自动识别流量从而判断是否使用代理服务器进行科学上网。
 
 进行相关配置后可以无忧无虑的科学上网。
+
+# 更新说明
+
+2015.10.09——OpenGFW 1.1
+
+**新增一键部署Windows系统Pac**
+使用时需管理员权限运行脚本
 
 ## 运行环境
 
@@ -29,13 +36,13 @@ $ pip install requests
 ## 使用
 
 ~~~
-Usage: python OpenGFW.py <type> <host> <port>
+Usage: python OpenGFW.py <type> <host> <port> <system>
 
 Examples:
-	python OpenGFW.py PROXY 127.0.0.1 8088
-	python OpenGFW.py SOCKS 127.0.0.1 1080
-	python OpenGFW.py SOCK5 127.0.0.1 1080
-
+	python OpenGFW.py PROXY 127.0.0.1 8088 1
+	python OpenGFW.py SOCKS 127.0.0.1 1080 1
+	python OpenGFW.py SOCK5 127.0.0.1 1080 1
+ 
 ~~~
 
 pac使用方法参考：
